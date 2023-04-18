@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script> -->
+    <script type = "text/JavaScript" src = " https://MomentJS.com/downloads/moment.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <p class="title">Weather App</p>
+            <div>
+                <input type="search" placeholder="Choose your city" id="city-input">
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+        <a href="history.html"><button class="history-btn">History</button></a>
+        <p class="city-name"></p>
+        <p class="temparature"></p>
+        <p class="description-text"></p>
+        <div class="description">
+            <div class="description-item">
+                <img src="images/humidity.png" alt="" class="des-icon">
+                <div>
+                    <p>Humidity</p>
+                    <p class="description-value humidity">--</p>
+                </div>
+            </div>
+            <div class="description-item">
+                <img src="images/speed.png" alt="" class="des-icon">
+                <div>
+                    <p>Wind speed</p>
+                    <p class="description-value wind">--</p>
+                </div>
+            </div>
+            <div class="description-item">
+                <img src="images/sun.png" alt="" class="des-icon">
+                <div>
+                    <p>Sunrise</p>
+                    <p class="description-value sunrise">--</p>
+                </div>
+            </div>
+            <div class="description-item">
+                <img src="images/sunset.png" alt="" class="des-icon">
+                <div>
+                    <p>Sunset</p>
+                    <p class="description-value sunset">--</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script> -->
+    <script src="index.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script> -->
+</body>
+</html>

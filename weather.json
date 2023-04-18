@@ -1,0 +1,30 @@
+{
+  "coord": { "lon": 79.4167, "lat": 13.65 },
+  "weather": [
+    { "id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 302.72,
+    "feels_like": 301.51,
+    "temp_min": 302.72,
+    "temp_max": 302.72,
+    "pressure": 1017,
+    "humidity": 30
+  },
+  "visibility": 6000,
+  "wind": { "speed": 2.06, "deg": 50 },
+  "clouds": { "all": 20 },
+  "dt": 1678082256,
+  "sys": {
+    "type": 1,
+    "id": 9219,
+    "country": "IN",
+    "sunrise": 1678064171,
+    "sunset": 1678107097
+  },
+  "timezone": 19800,
+  "id": 1254360,
+  "name": "Tirumala - Tirupati",
+  "cod": 200
+}
