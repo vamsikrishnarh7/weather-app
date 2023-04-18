@@ -110,6 +110,9 @@ body{
     }
 }
 @media (max-width:480px){
+    body{
+        overflow: visible;
+    }
     .title{
         font-size: 30px;
     }
