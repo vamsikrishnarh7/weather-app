@@ -42,6 +42,8 @@ searchbtn.addEventListener('click',()=>{
             sunrise.textContent = x;
             sunset.textContent = y;
             historyArray.push(cityNameInput.value);
+            //removing duplicate locations from localStorage
+            historyArray = [...new Set(historyArray)];
             localStorage.setItem('locations',JSON.stringify(historyArray));
             console.log(historyArray);
 
