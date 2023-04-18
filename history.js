@@ -2,8 +2,6 @@ const container = document.querySelector(".container");
 const historyContainer = document.querySelector(".history-container");
 let historyArray = localStorage.getItem('locations') ? JSON.parse(localStorage.getItem('locations')) : [];
 console.log(historyArray);
-// historyArray.push("tppty");
-localStorage.clear();
 if(historyArray.length == 0){
     let message = document.createElement('h1');
     message.className = "message";
